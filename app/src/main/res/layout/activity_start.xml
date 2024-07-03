@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/startImageView"
+        android:layout_width="368dp"
+        android:layout_height="298dp"
+        app:srcCompat="@drawable/logo_no_background" />
+
+    <TextView
+        android:id="@+id/startTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/cardview_dark_background"
+        android:text="@string/where_every_bite_tells_a_story"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:background="@drawable/green_button_gradient"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="234dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+</LinearLayout>
+

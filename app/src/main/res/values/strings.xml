@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DishDash</string>
+    <string name="where_every_bite_tells_a_story">Where Every Bite Tells a Story!</string>
+    <string name="next">Next</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="or">Or</string>
+    <string name="continue_with">Continue With</string>
+    <string name="google_login">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_with">Sign Up With</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="choose_your_location">Choose Your Location</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="location_access_message">Enable location access for personalized offers and a better experience.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
