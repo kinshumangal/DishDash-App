@@ -12,6 +12,7 @@ class LogInActivity : AppCompatActivity() {
     private val binding: ActivityLogInBinding by lazy {
         ActivityLogInBinding.inflate(layoutInflater)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

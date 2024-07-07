@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".StartActivity">
 
     <ImageView
@@ -22,21 +22,21 @@
         android:layout_height="30dp"
         android:layout_marginTop="40dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:textColor="@color/cardview_dark_background"
         android:text="@string/where_every_bite_tells_a_story"
+        android:textColor="@color/cardview_dark_background"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/nextButton"
         android:layout_width="150dp"
         android:layout_height="57dp"
+        android:layout_marginTop="234dp"
         android:background="@drawable/green_button_gradient"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
         android:text="@string/next"
         android:textColor="@color/white"
-        android:textSize="22sp"
-        android:layout_marginTop="234dp"
-        android:paddingStart="24dp"
-        android:paddingEnd="24dp"/>
+        android:textSize="22sp" />
 </LinearLayout>
 

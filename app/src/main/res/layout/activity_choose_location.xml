@@ -23,14 +23,14 @@
         style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/edittextshape"
-        android:layout_marginTop="15dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="16dp"
-        app:endIconDrawable="@drawable/outline_arrow_circle_down_24"
-        app:endIconTint="@color/black"
+        android:background="@drawable/edittextshape"
         app:boxStrokeWidth="0dp"
         app:boxStrokeWidthFocused="0dp"
+        app:endIconDrawable="@drawable/outline_arrow_circle_down_24"
+        app:endIconTint="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <AutoCompleteTextView
@@ -38,8 +38,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="none"
-            android:textSize="16sp"
-            android:text="@string/choose_location"/>
+            android:text="@string/choose_location"
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView

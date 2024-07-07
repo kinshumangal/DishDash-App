@@ -21,4 +21,9 @@
     <string name="location_access_message">Enable location access for personalized offers and a better experience.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_your_favourite_food">Explore Your Favourite Food</string>
+    <string name="view_menu">View Menu</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="popular">Popular</string>
 </resources>

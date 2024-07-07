@@ -12,6 +12,7 @@ class ChooseLocationActivity : AppCompatActivity() {
     private val binding: ActivityChooseLocationBinding by lazy {
         ActivityChooseLocationBinding.inflate(layoutInflater)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -22,7 +23,7 @@ class ChooseLocationActivity : AppCompatActivity() {
             insets
         }
 
-        val locationList = listOf("Bangalore", "Ujjain","Indore", "Nalkheda", "Delhi", "Mumbai")
+        val locationList = listOf("Bangalore", "Ujjain", "Indore", "Nalkheda", "Delhi", "Mumbai")
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, locationList)
         val autoCompleteTextView = binding.listOfLocations
         autoCompleteTextView.setAdapter(adapter)

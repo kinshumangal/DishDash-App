@@ -103,10 +103,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/cardview_dark_background"
         android:layout_marginTop="10dp"
         android:text="@string/or"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/cardview_dark_background" />
 
     <TextView
         android:id="@+id/continueWithTextView"
