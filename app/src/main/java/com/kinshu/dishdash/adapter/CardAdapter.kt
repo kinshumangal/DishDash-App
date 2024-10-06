@@ -32,8 +32,41 @@ class CardAdapter(
                 cartItemPrice.text = cartPrice[position]
                 cartDishImage.setImageResource(cartImage[position])
                 numberOfItem.text = quantity.toString()
+
+                removeButton.setOnClickListener {
+                    decreaseQuantity(position)
+                }
+                addButton.setOnClickListener {
+                    increaseQuantity(position)
+                }
+                deleteButton.setOnClickListener {
+                    val itemPosition = adapterPosition
+                    if (itemPosition != RecyclerView.NO_POSITION) {
+                        deleteItem(itemPosition)
+                    }
+                }
             }
         }
 
+        private fun decreaseQuantity(position: Int) {
+            if (itemQuantity[position] > 1) {
+                itemQuantity[position]--
+                binding.numberOfItem.text = itemQuantity[position].toString()
+            }
+        }
+
+        private fun increaseQuantity(position: Int) {
+            itemQuantity[position]++
+            binding.numberOfItem.text = itemQuantity[position].toString()
+        }
+
+        private fun deleteItem(position: Int) {
+            cartItems.removeAt(position)
+            cartPrice.removeAt(position)
+            cartImage.removeAt(position)
+            itemQuantity[position] = 1
+            notifyItemRemoved(position)
+            notifyItemRangeChanged(position, cartItems.size)
+        }
     }
 }

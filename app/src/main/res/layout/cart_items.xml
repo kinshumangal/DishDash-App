@@ -21,8 +21,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:background="@color/white"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/cartDishImage"
@@ -41,9 +41,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:fontFamily="@font/aclonica"
-                android:textSize="16sp"
-                android:textColor="@color/black"
                 android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/cartItemPrice"
                 app:layout_constraintStart_toEndOf="@+id/cartDishImage"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -53,9 +53,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:textSize="16sp"
                 android:fontFamily="@font/abril_fatface"
-                android:textColor="@color/black"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cartDishImage"
                 app:layout_constraintTop_toBottomOf="@+id/cartDishName" />
@@ -78,10 +78,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:fontFamily="@font/aclonica"
+                android:fontFamily="@font/abril_fatface"
                 android:text="1"
-                android:textSize="16sp"
                 android:textColor="@color/black"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@id/addButton"
                 app:layout_constraintEnd_toStartOf="@id/addButton"
                 app:layout_constraintTop_toTopOf="@id/addButton" />

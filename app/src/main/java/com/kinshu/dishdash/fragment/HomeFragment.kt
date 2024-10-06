@@ -1,4 +1,4 @@
-package com.kinshu.dishdash.Fragment
+package com.kinshu.dishdash.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
