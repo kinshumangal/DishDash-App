@@ -36,15 +36,15 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/popular"
-        android:textSize="16sp"
         android:fontFamily="@font/aclonica"
+        android:text="@string/popular"
         android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <TextView
-        android:id="@+id/viewMoreTV"
+        android:id="@+id/viewAllMenu"
         android:layout_width="80dp"
         android:layout_height="25dp"
         android:layout_marginTop="16dp"
@@ -52,8 +52,8 @@
         android:background="@drawable/text_view_shape"
         android:elevation="5dp"
         android:gravity="center"
-        android:textColor="@color/textColor"
         android:text="@string/view_menu"
+        android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
@@ -64,6 +64,6 @@
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/viewMoreTV" />
+        app:layout_constraintTop_toBottomOf="@+id/viewAllMenu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
