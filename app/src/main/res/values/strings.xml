@@ -31,4 +31,6 @@
     <string name="search_hint">What do you want to order?</string>
     <string name="search">Search</string>
     <string name="menu">Menu</string>
+    <string name="buy_again">Buy Again</string>
+    <string name="recent_buy">Recent Buy</string>
 </resources>
