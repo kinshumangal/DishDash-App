@@ -19,6 +19,10 @@ class MenuBottomSheetFragment : BottomSheetDialogFragment() {
     ): View {
         binding = FragmentMenuBottomSheetBinding.inflate(inflater, container, false)
 
+        binding.buttonBack.setOnClickListener {
+            dismiss()
+        }
+
         val menuDishNames = listOf("Rasmalai", "Kachori", "Poha", "Chai")
         val menuDishPrices = listOf("₹48", "₹27", "₹23", "₹18")
         val menuDishImages = listOf(
