@@ -6,11 +6,9 @@ import android.os.Handler
 import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
-class Splash_Screen : AppCompatActivity() {
-    private val SPLASH_TIME_OUT: Long = 3000 // 3 seconds
+class SplashScreen : AppCompatActivity() {
+    private val splashTimeOut: Long = 3000 // 3 seconds
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +18,6 @@ class Splash_Screen : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, StartActivity::class.java))
             finish()
-        }, SPLASH_TIME_OUT)
+        }, splashTimeOut)
     }
 }

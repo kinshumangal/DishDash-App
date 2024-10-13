@@ -22,10 +22,12 @@ class LogInActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         binding.loginButton.setOnClickListener {
             val intent = Intent(this, ChooseLocationActivity::class.java)
             startActivity(intent)
         }
+
         binding.dontHaveAccount.setOnClickListener {
             val intent = Intent(this, SignInActivity::class.java)
             startActivity(intent)

@@ -13,6 +13,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +21,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/buyAgainDishImage"
@@ -53,8 +55,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/autour_one"
                 android:text="₹18"
-                android:textSize="20sp"
                 android:textColor="#43A047"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/buyAgainDishName"
                 app:layout_constraintTop_toBottomOf="@+id/buyAgainDishName" />

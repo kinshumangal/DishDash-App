@@ -19,7 +19,6 @@ class NotificationBottomFragment : BottomSheetDialogFragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
         binding = FragmentNotificationBottomBinding.inflate(inflater, container, false)
 
         val notifications = listOf(

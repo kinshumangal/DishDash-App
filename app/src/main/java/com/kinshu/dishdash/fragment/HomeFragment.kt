@@ -71,7 +71,6 @@ class HomeFragment : Fragment() {
         val adapter = PopularAdapter(dishName, price, dishImages)
         binding.populerReclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.populerReclerView.adapter = adapter
-
     }
 
     companion object

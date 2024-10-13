@@ -52,7 +52,7 @@ class CardAdapter(
             if (itemQuantity[position] > 1) {
                 itemQuantity[position]--
                 binding.numberOfItem.text = itemQuantity[position].toString()
-            }
+            } else deleteItem(position)
         }
 
         private fun increaseQuantity(position: Int) {

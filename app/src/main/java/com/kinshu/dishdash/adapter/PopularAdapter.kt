@@ -11,7 +11,6 @@ class PopularAdapter(
     private val images: List<Int>
 ) : RecyclerView.Adapter<PopularAdapter.PopularViewHolder>() {
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PopularViewHolder {
         return PopularViewHolder(
             PopulerItemsBinding.inflate(
@@ -41,7 +40,6 @@ class PopularAdapter(
             binding.dishNamePopular.text = item
             binding.pricePopular.text = price
             dishImageView.setImageResource(image)
-
         }
     }
 }

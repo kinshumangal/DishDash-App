@@ -30,6 +30,5 @@ class NotificationAdapter(
                 notificationImageView.setImageResource(notificationsImages[position])
             }
         }
-
     }
 }
