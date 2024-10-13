@@ -53,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/autour_one"
                 android:text="₹18"
-                android:textColor="#43A047"
                 android:textSize="20sp"
+                android:textColor="#43A047"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/buyAgainDishName"
                 app:layout_constraintTop_toBottomOf="@+id/buyAgainDishName" />

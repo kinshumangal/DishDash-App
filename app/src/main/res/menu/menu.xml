@@ -4,21 +4,21 @@
     <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/outline_home_24"
-        android:title="Home" />
+        android:title="@string/home" />
     <item
         android:id="@+id/cartFragment"
         android:icon="@drawable/outline_shopping_cart_24"
-        android:title="Cart" />
+        android:title="@string/cart" />
     <item
         android:id="@+id/searchFragment"
         android:icon="@drawable/outline_search_24"
-        android:title="Search" />
+        android:title="@string/search" />
     <item
         android:id="@+id/historyFragment"
         android:icon="@drawable/outline_history_24"
-        android:title="History" />
+        android:title="@string/history" />
     <item
         android:id="@+id/profileFragment"
         android:icon="@drawable/outline_person_outline_24"
-        android:title="Profile" />
+        android:title="@string/profile" />
 </menu>

@@ -33,4 +33,11 @@
     <string name="menu">Menu</string>
     <string name="buy_again">Buy Again</string>
     <string name="recent_buy">Recent Buy</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="save_information">Save Information</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
 </resources>

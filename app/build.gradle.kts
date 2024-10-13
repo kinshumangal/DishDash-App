@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.kinshu.dishdash"
-        minSdk = 28
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -47,7 +47,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui.ktx)
-//    implementation("com.github.denzcoskun:ImageSlideshow:0.1.2")
     implementation(libs.imageslideshow)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
