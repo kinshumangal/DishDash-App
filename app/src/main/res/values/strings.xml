@@ -40,4 +40,6 @@
     <string name="history">History</string>
     <string name="profile">Profile</string>
     <string name="notifications">Notifications</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="total_amount">Total Amount</string>
 </resources>

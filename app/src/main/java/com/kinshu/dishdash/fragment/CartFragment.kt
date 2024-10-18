@@ -1,11 +1,13 @@
 package com.kinshu.dishdash.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.kinshu.dishdash.PayOutActivity
 import com.kinshu.dishdash.R
 import com.kinshu.dishdash.adapter.CardAdapter
 import com.kinshu.dishdash.databinding.FragmentCartBinding
@@ -36,6 +38,12 @@ class CartFragment : Fragment() {
         )
         binding.cardRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.cardRecyclerView.adapter = cartAdapter
+
+        binding.proceedButton.setOnClickListener {
+            val intent = Intent(requireContext(), PayOutActivity::class.java)
+            startActivity(intent)
+        }
+
         return binding.root
     }
 
